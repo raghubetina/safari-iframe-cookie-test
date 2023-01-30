@@ -8,4 +8,4 @@
 1. Navigate to [http://localhost:4000](http://localhost:3000).
 1. Click "Next" repeatedly. The counter still increments, within an `iframe`.
 1. Works in Safari, too.
-1. Hotwire+cookies will work within an iframe? 
+1. Turbo+cookies will work within an iframe? 🤞🏾
