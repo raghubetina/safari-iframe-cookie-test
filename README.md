@@ -9,3 +9,4 @@
 1. Click "Next" repeatedly. The counter still increments, within an `iframe`.
 1. Works in Safari, too.
 1. Turbo+cookies work within an iframe? 🤞🏾
+1. Note that if you do a full page refresh, the counter resets. So cookies are not being persisted across redirects, as expected. But if we design any LTI tools as true "single page" apps, then that should be fine.
