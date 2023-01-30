@@ -1,0 +1,13 @@
+<h1>Pages#home</h1>
+
+<h1>Original cookie value: <%= cookies[:hello] %></h1>
+
+<p>Below is a turboframe:</p>
+
+<turbo-frame id="zebra">
+  <h2>this is the zebra turboframe</h2>
+
+  <h2>this is the cookie: <%= cookies[:hello] %></h2>
+
+  <a href="/other/next">Next</a>
+</turbo-frame>
